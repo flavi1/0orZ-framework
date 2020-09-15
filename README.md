@@ -19,8 +19,10 @@ TODO
 # O or Z Concept
 
 TODO
+
 *  parler du preprocess dans les templates (rappel historique sur PHP) -> implicit preprocessed HMVC
 * routines vs classic front controllers.
+* Control is delegate to a routine (0) or a template page (Z)
 * One unic front controller, 0.routine.php for explicit HMVC, z.page.tpl for implicit preprocessed HMVC.
 * url point directly to a project folder. ex : myproject/myrequest
 * First, the controller will try to find a routine in this format : 0.routine.php (here, ex : myproject/0.myrequest.php)
