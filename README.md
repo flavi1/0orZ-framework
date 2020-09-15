@@ -34,4 +34,4 @@ TODO
 # Bonus
 
 * No request object, but wrappers to protect PHP variables. We doesn't want to reinvent PHP way to accessrequest values ($_GET, $_POST, $_REQUEST...), we just want to protect them. => Code strongly reusable
-* All classes are externals and standalones. Classes are not written for ZoZ, but ZoZ is written for them. => KISS
+* All classes are externals and standalones. Classes are not written for ZoZ, but ZoZ is written for them. => KISS. ZoZ is not a library, It's a framework thant implements some libraries.
