@@ -30,3 +30,8 @@ TODO
 * url point directly to a project folder. ex : myproject/myrequest
 * First, the controller will try to find a routine in this format : 0.routine.php (here, ex : myproject/0.myrequest.php)
 * If routine not found, the controller will try to find a page template "z.page.tpl" (here : myproject/z.myrequest.php)
+
+# Bonus
+
+* No request object, but wrappers to protect PHP variables. We doesn't want to reinvent PHP way to accessrequest values ($_GET, $_POST, $_REQUEST...), we just want to protect them. => Code strongly reusable
+* All classes are externals and standalones. Classes are not written for ZoZ, but ZoZ is written for them. => KISS
